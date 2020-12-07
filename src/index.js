@@ -1,5 +1,5 @@
 import configureStore from "./store/configureStore";
-import { addBug } from "./store/bugs";
+import { loadBugs, resolveBug, assignBugToUser } from "./store/bugs";
 import {
   bugAdded,
   bugResolved,
@@ -13,7 +13,9 @@ import { userAdded } from "./store/users";
 const store = configureStore();
 
 // UI Layer
-store.dispatch(addBug({ description: "a" }));
+store.dispatch(loadBugs());
+
+setTimeout(() => store.dispatch(assignBugToUser(1, 4)), 2000);
 
 // store.dispatch({
 //   type: "error",
