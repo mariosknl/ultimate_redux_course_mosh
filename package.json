@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js",
-    "test": "jest --watch"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "Mosh Hamedani",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
     "@types/jest": "^26.0.16",
+    "axios-mock-adapter": "^1.19.0",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
     "webpack": "4.41.6",

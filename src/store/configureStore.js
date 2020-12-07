@@ -10,7 +10,7 @@ export default function () {
     reducer,
     middleware: [
       ...getDefaultMiddleware(),
-      logger({ destination: "console" }),
+      // logger({ destination: "console" }),
       toast,
       api,
     ],
