@@ -11,8 +11,7 @@
   "author": "Mosh Hamedani",
   "license": "ISC",
   "devDependencies": {
-    "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.11.1"
+
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.2.5",
