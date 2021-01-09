@@ -11,7 +11,7 @@
   "author": "Mosh Hamedani",
   "license": "ISC",
   "devDependencies": {
-    "webpack-cli": "3.3.12",
+    "webpack-cli": "4.3.1",
     "webpack-dev-server": "3.10.3"
   },
   "dependencies": {
