@@ -21,7 +21,7 @@
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
+    "@redux-devtools/extension": "^3.0.0",
     "reselect": "^5.0.0"
   }
 }
